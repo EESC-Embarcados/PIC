@@ -47,9 +47,11 @@ Após gerar o arquivo `.hex`, utilizamos os simuladores abaixo para testar o com
     * **Download e Uso:**
         * O PICSimLab é de código aberto e pode ser baixado em sua página no SourceForge: [PICSimLab Download](https://sourceforge.net/projects/picsimlab/files/latest/download)
         * Para um guia detalhado sobre como usar o PICSimLab especificamente com os projetos deste repositório, consulte o **[guia dentro da pasta PICGenios](./Kits/PICGenios/README.md)**.
+    * **Exemplos**: Os **[exemplos](./Kits/PICGenios/Exemplos)** encontrados nesse repositório para uso do PICSimLab são para a placa PICGenios, criados utilizando a IDE MikroC. 
 
 * #### **SimulIDE**
     * **O que é:** Um simulador de circuitos eletrônicos em tempo real. Diferente do PICSimLab, ele é focado em simulação a nível de componentes. É ideal para criar e testar circuitos customizados do zero, onde você mesmo conecta o microcontrolador, resistores, LEDs e outros CIs.
     * **Download e Uso:**
         * O SimulIDE também é de código aberto e pode ser baixado em sua página oficial: [SimulIDE Download](https://www.simulide.com/p/downloads.html)
         * Para usá-lo, crie um novo circuito, adicione um PIC18F4550 da biblioteca de componentes, clique com o botão direito sobre ele e carregue o firmware `.hex`. Em seguida, adicione e conecte os demais componentes (LEDs, botões, etc.) aos pinos correspondentes.
+    * **Exemplos**: Os **[exemplos](./Kits/EasyPIC/Exemplos)** encontrados nesse repositório para uso do SimulIDE são baseados na placa EasyPIC, utilizados em aula e criados utilizando a IDE MikroC. 
